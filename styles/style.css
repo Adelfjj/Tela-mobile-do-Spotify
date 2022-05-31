@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body,html{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+main{
+    width: 100%;
+    overflow: hidden;
+    background: rgb(60,57,57);
+    background: linear-gradient(146deg, rgba(60,57,57,1) 0%, rgba(25,20,20,1) 31%);
+}
+.container{
+    margin: 0 15px;
+    width: calc(100vw - 30px);
+    min-height: 800px;
+}
+section.container-player{
+    position: fixed;
+    bottom: 0;
+    min-width:calc(100vw - 16px);
+    height: auto;
+    padding: 0px 8px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.31974788206298144) 65%);
+}
+.player{
+    padding: 8px;
+    display: flex;
+    background: rgb(68, 112, 114);
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-around;
+}
+.info{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex: 2;
+}
+.info img{
+    border-radius: 6px;
+    width: 45px;
+    height: 45px;
+}
+.info .titulo{
+    margin-left: 13px;
+}
+.info .titulo h1{
+    font-size: 13px;
+    font-weight: bold;
+}
+.info .titulo h2{
+    font-size: 12px;
+    font-weight: lighter;
+}
+.action{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    width: 25%;
+    min-width: 110px;
+    height: 45px;
+}
+.action i{
+    width: 22px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    background: none;
+    margin-right: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+section.container-player nav{
+    padding: 10px 35px;
+}
+section.container-player nav ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+section.container-player nav ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    cursor: pointer;
+    padding: 5px 0 0;
+}
+section.container-player nav ul li a{
+    color: white;
+    font-size: 25px;
+}
+section nav ul li:not(li:nth-child(3)){
+   margin-right: 5px;
+}
+section nav ul li label{
+    font-size: 10px;
+}
+header{
+    width: 100%;
+}
+header nav{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 25px;
+}
+header nav ul{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    flex: 1;
+}
+header nav ul li a{
+    font-size: 25px;
+}
+header nav ul li:not(li:nth-child(3)){
+    margin-right: 25px;
+}
+header nav p{
+    flex: 1;
+    font-size: 23px;
+    font-weight: 600;
+}
+header nav i{
+    color: white;
+}
+.visto-recent{
+    display: flex;
+    width: 100%;
+}
+.visto-recent .card{
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgb(65, 62, 62);
+    border-radius: 4px;
+    flex: 1;
+}
+.visto-recent .card + .card{
+    margin-left: 10px;
+}
+.visto-recent .card img{
+    width: 60px;
+}
+.visto-recent .card h2{
+    font-size:13px;
+    margin-left: 10px;
+    flex-wrap: wrap;
+}

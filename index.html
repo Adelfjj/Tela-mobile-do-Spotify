@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Player</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+        <header>
+            <nav>
+                <p>Bom dia</p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-bell-o"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-clock-o"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-cog"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="visto-recent">
+                <div class="card">
+                    <img src="img/The Poison.jpg" alt="album">
+                    <h2>Nome do album</h2>
+                </div>
+                <div class="card">
+                    <img src="img/The Poison.jpg" alt="album">
+                    <h2>Nome do album</h2>
+                </div>
+            </div>
+        </header>
+        </div>
+        <section class="container-player">
+            <div class="player">
+                <div class="info">
+                    <img src="img/The Poison.jpg" alt="album">
+                    <div class="titulo">
+                        <h1>Bullet For My Valentine</h1>
+                        <h2>Hand Of Blood</h2>
+                    </div>
+                </div>
+                <div class="action">
+                    <audio src="musics/The Poison/04 - Tears Don't Fall.mp3"></audio>
+                    <i class="fa fa-heart-o fav"></i>
+                    <i class="fa fa-play play"></i>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a id="home" href="#">
+                            <i class="fa fa-home"></i>
+                        </a>
+                        <label for="home">Inicio</label>
+                    </li>
+                    <li>
+                        <a id="search" href="#">
+                            <i class="fa fa-search"></i>
+                        </a>
+                        <label for="search">Buscar</label>
+                    </li>
+                    <li>
+                        <a id="bibli" href="#">
+                            <i class="fa fa-clone"></i>
+                        </a>
+                        <label for="bibli">Sua Biblioteca</label>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+</main>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
