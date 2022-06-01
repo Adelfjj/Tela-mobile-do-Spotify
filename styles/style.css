@@ -88,6 +88,7 @@ section.container-player nav ul{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
+    gap: 5px;
 }
 section.container-player nav ul li{
     display: flex;
@@ -101,9 +102,6 @@ section.container-player nav ul li{
 section.container-player nav ul li a{
     color: white;
     font-size: 25px;
-}
-section nav ul li:not(li:nth-child(3)){
-   margin-right: 5px;
 }
 section nav ul li label{
     font-size: 10px;
@@ -121,12 +119,10 @@ header nav ul{
     width: 100%;
     justify-content: end;
     flex: 1;
+    gap: 25px;
 }
 header nav ul li a{
     font-size: 25px;
-}
-header nav ul li:not(li:nth-child(3)){
-    margin-right: 25px;
 }
 header nav p{
     flex: 1;
@@ -139,18 +135,18 @@ header nav i{
 .visto-recent{
     display: flex;
     width: 100%;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 .visto-recent .card{
     display: flex;
     overflow: hidden;
+    min-width: 45%;
     align-items: center;
-    margin-top: 20px;
     background-color: rgb(65, 62, 62);
     border-radius: 4px;
     flex: 1;
-}
-.visto-recent .card + .card{
-    margin-left: 10px;
 }
 .visto-recent .card img{
     width: 60px;
